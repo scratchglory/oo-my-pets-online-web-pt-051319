@@ -50,7 +50,8 @@ class Owner
   end
   
   def sell_pets
-    @pets[:]
+    @pets.each do [species, pet_name]
+      
   end
   
   # def list_pets
