@@ -42,11 +42,12 @@ class Owner
   end
   
   def play_with_cats
-    @pets[:cats].each {|cat| cat.mood = }  
+    @pets[:cats].each {|cat| cat.mood = "playful"}  
   end
   
-  # def feed_fish
-  # end
+  def feed_fish
+    @pets[:fish].each {|fish| fish.mood}
+  end
   
   # def sell_pets
   # end
