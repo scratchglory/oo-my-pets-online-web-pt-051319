@@ -55,13 +55,13 @@ class Owner
         pet.mood = "nervous"
       end
     end
-    @pets = {}
+    @pets = {}        # Need this in order to pass as true
   end
   
   
-  # def list_pets
-  #   # puts "I have #{buy_fish.length} fish, #{buy_dog.length} dog(s), and #{buy_cat.length} cat(s) ."
-  # end
+  def list_pets
+    # puts "I have #{buy_fish.length} fish, #{buy_dog.length} dog(s), and #{buy_cat.length} cat(s) ."
+  end
   
   
 end
