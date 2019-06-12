@@ -62,10 +62,10 @@ class Owner
    @pets.each do |type, name_array|
      name_array.each do |pet|
        pet.mood = "nervous"
+        end
       end
-    end
     @pets = {}
- end
+   end
   
   # def list_pets
   #   # puts "I have #{buy_fish.length} fish, #{buy_dog.length} dog(s), and #{buy_cat.length} cat(s) ."
