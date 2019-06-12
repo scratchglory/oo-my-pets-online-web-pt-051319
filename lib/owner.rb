@@ -49,23 +49,15 @@ class Owner
     @pets[:fishes].each {|fish| fish.mood = "happy"}
   end
   
-  # def sell_pets
-  #   @pets.each do [species, name_array]
-  #     name_array.each do |pet|
-  #       pet.mood = "nervous"
-  #     end
-  #   end
-  #   @pets = {}
-  # end
-  
   def sell_pets
-  @pets.each do |type, name_array|
-    name_array.each do |pet|
-      pet.mood = "nervous"
-        end
+    @pets.each do  |species, pet_name|
+      pet_name.each do |pet|
+        pet.mood = "nervous"
       end
-    @pets = {}
+    end
+    # @pets = {}
   end
+  
   
   # def list_pets
   #   # puts "I have #{buy_fish.length} fish, #{buy_dog.length} dog(s), and #{buy_cat.length} cat(s) ."
