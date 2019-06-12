@@ -13,34 +13,34 @@ class Owner
     @@all
   end
   
-  def say_species
+  # def say_species
   
-  end
+  # end
   
-  def buy_fish(fish)
+  # def buy_fish(fish)
    
   
-  def buy_cat(cat)
-  end
+  # def buy_cat(cat)
+  # end
   
-  def buy_dog(dog)
-  end
+  # def buy_dog(dog)
+  # end
   
-  def walk_dogs
-  end
+  # def walk_dogs
+  # end
   
-  def play_with_cats
-  end
+  # def play_with_cats
+  # end
   
-  def feed_fish
-  end
+  # def feed_fish
+  # end
   
-  def sell_pets
-  end
+  # def sell_pets
+  # end
   
-  def list_pets
-    # puts "I have #{buy_fish.length} fish, #{buy_dog.length} dog(s), and #{buy_cat.length} cat(s) ."
-  end
+  # def list_pets
+  #   # puts "I have #{buy_fish.length} fish, #{buy_dog.length} dog(s), and #{buy_cat.length} cat(s) ."
+  # end
   
   
 end
